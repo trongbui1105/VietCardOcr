@@ -1,0 +1,5 @@
+opencv-python
+torch
+torchvision
+vietocr
+pyyaml
