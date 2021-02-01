@@ -71,8 +71,6 @@ def extract(img):
     results, image_framed = single_pic_proc(img) #Hàm trả về là kết quả dạng array và img đã đóng khung
     output_proc(results)
 
-extract('images/cmnd6.jpg')
-
 
 
 
