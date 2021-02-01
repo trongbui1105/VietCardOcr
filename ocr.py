@@ -13,7 +13,7 @@ def img_to_text(list_img):
         # sử dụng config mặc định của mô hình
         config = Cfg.load_config_from_name('vgg_transformer')
         # đường dẫn đến trọng số đã huấn luyện hoặc comment để sử dụng #pretrained model mặc định
-        config['weights'] = 'checkpoints/transformerocr.pth'
+        config['weights'] = 'transformerocr.pth'
         config['device'] = 'cpu' # device chạy 'cuda:0', 'cuda:1', 'cpu'
 
         detector = Predictor(config)
