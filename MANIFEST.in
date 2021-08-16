@@ -1,0 +1,6 @@
+include *.pth
+include vietcardocr/checkpoints/CTPN.pth
+include *.txt
+include vietcardocr/text/*.txt
+
+
