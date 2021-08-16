@@ -7,7 +7,7 @@ setup(
   name = 'vietcardocr',         # How you named your package folder (MyLib)
   packages = ['vietcardocr'],   # Chose the same as "name"
   package_data={'vietcardocr': ['text/*.txt', 'checkpoints/CTPN.pth']},
-  version = '0.3.1',      # Start with a small number and increase it with every change you make
+  version = '0.3.4',      # Start with a small number and increase it with every change you make
   include_package_data=True,
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Extract Vietnamese Card',   # Give a short description about your library

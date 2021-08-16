@@ -17,6 +17,8 @@ vietcardocr/processing.py
 vietcardocr/studentCard_class.py
 vietcardocr/checkpoints/CTPN.pth
 vietcardocr/text/address.txt
+vietcardocr/text/faculty.txt
 vietcardocr/text/firstName.txt
 vietcardocr/text/lastName.txt
+vietcardocr/text/major.txt
 vietcardocr/text/nation.txt

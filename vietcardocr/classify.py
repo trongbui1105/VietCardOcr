@@ -99,6 +99,36 @@ def searchAddressOfDL(data, file):
                     res = i
     return res.strip()
 
+def searchMajor(data, file):
+    res = ""
+    maxx = 0.7
+    data = uni.unidecode(data.upper())
+    with open(file, "r", encoding='utf8') as infile:
+        for i in infile.readlines():
+            if len(data.replace(" ", "")) <= len(i.strip().replace(" ", "")) + 8:
+                ratio = SequenceMatcher(
+                    a=uni.unidecode(i.upper()), b=data.upper()
+                ).ratio()
+                if ratio > maxx:
+                    maxx = ratio
+                    res = i
+    return res.strip()
+
+def searchFaculty(data, file):
+    res = ""
+    maxx = 0.7
+    data = uni.unidecode(data.upper())
+    with open(file, "r", encoding='utf8') as infile:
+        for i in infile.readlines():
+            if len(data.replace(" ", "")) <= len(i.strip().replace(" ", "")) + 8:
+                ratio = SequenceMatcher(
+                    a=uni.unidecode(i.upper()), b=data.upper()
+                ).ratio()
+                if ratio > maxx:
+                    maxx = ratio
+                    res = i
+    return res.strip()
+
 
 def extractDate(data):
     match = re.findall(r"\d{2}/\d{2}/\d{4}", data)
@@ -120,7 +150,7 @@ def extractIdOfDL(data):
         return False
 
 
-def extractNationOfDL(data):
+def extractNation(data):
     maxx = 0.7
     res = ""
     file = os.path.join(config.txt_dir, 'text/nation.txt')
@@ -185,21 +215,33 @@ def output_proc_idCard(results):
             hometown = results[i][10:]
             if ":" not in results[i + 1]:
                 hometown += ", " + results[i + 1]
+            if ":" not in results[i + 1] and ":" not in results[i + 2]:
+                hometown += ", " + results[i + 2]
 
         if "Nơi thường" in results[i]:
             address = results[i][16:]
             if ":" not in results[i + 1]:
                 address += ", " + results[i + 1]
+            if ":" not in results[i + 1] and ":" not in results[i + 2]:
+                address += ", " + results[i + 2]
 
         if extractDate(results[i]) and extractDate(results[i]) is not birth:
             expires = extractDate(results[i])
 
     if searchLastName(name):
         name = searchLastName(name)
+
+    if extractNation(nationality):
+        nationality = extractNation(nationality)
     
     file = os.path.join(config.txt_dir, 'text/address.txt')
     if searchDataFromFile(hometown, file):
         hometown = searchDataFromFile(hometown, file)
+
+    for i in range(0, 2):
+        if address[i] == ',':
+            address = address.replace(address[i], "", 1)
+
 
     idCard = IdCard(id, name, birth, nationality, sex, hometown, address, expires)
     return idCard
@@ -225,8 +267,8 @@ def output_proc_drivingLicense(results):
         if extractDate(results[i]) and birthOfDL == "":
             birthOfDL = extractDate(results[i])
 
-        if extractNationOfDL(results[i]) and nationalityOfDL == "":
-            nationalityOfDL = extractNationOfDL(results[i])
+        if extractNation(results[i]) and nationalityOfDL == "":
+            nationalityOfDL = extractNation(results[i])
 
         if "Nơi cư" in results[i] or "Address" in results[i]:
             if "Nationality" in results[i - 1]:
@@ -293,7 +335,13 @@ def output_proc_studentCard(results):
         if "Course" in results[i]:
             course = results[i][7:]
 
+    file = os.path.join(config.txt_dir, 'text/major.txt')
+    if searchMajor(major, file):
+        major = searchMajor(major, file)
     
+    file1 = os.path.join(config.txt_dir, 'text/faculty.txt')
+    if searchFaculty(faculty, file1):
+        faculty = searchFaculty(faculty, file1)
 
     studentCard = StudentCard(name, id, major, faculty, course)
     return studentCard

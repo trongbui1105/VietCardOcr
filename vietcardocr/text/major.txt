@@ -1,0 +1,184 @@
+Bảo vệ thực vật
+Bệnh học thủy sản
+Công nghệ chế biến thủy sản
+Công nghệ kỹ thuật hóa học
+Công nghệ kỹ thuật hóa học (chất lượng cao)
+Công nghệ rau hoa quả và cảnh quan
+Công nghệ sau thu hoạch
+Công nghệ sinh học
+Công nghệ sinh học (chương trình tiên tiến)
+Công nghệ thông tin
+Công nghệ thông tin (chất lượng cao)
+Công nghệ thông tin (Tin học ứng dụng)
+Công nghệ thực phẩm
+Công nghệ thực phẩm (chất lượng cao)
+Chính trị học
+Chăn nuôi
+Giáo dục công dân
+Giáo dục thể chất
+Giáo dục tiểu học
+Hóa dược
+Hóa học
+Hệ thống thông tin
+Kế toán
+Kỹ thuật điều khiển và tự động hóa
+Kỹ thuật điện
+Kỹ thuật điện (chất lượng cao)
+Kỹ thuật điện tử - viễn thông
+Kỹ thuật cơ điện tử
+Kỹ thuật cơ khí
+Kỹ thuật cơ khí (Cơ khí ô tô)
+Kỹ thuật cơ khí (Cơ khí chế tạo máy)
+Kỹ thuật máy tính
+Kỹ thuật môi trường
+Kỹ thuật phần mềm
+Kỹ thuật vật liệu
+Kỹ thuật xây dựng
+Kỹ thuật xây dựng (chất lượng cao)
+Kỹ thuật xây dựng công trình giao thông
+Kỹ thuật xây dựng công trình thủy
+Khoa học đất (Quản lý đất và công nghệ phân bón)
+Khoa học cây trồng
+Khoa học cây trồng (Nông nghiệp công nghệ cao)
+Khoa học máy tính
+Khoa học môi trường
+Kiểm toán
+Kinh doanh nông nghiệp
+Kinh doanh quốc tế
+Kinh doanh quốc tế (chất lượng cao)
+Kinh doanh thương mại
+Kinh tế
+Kinh tế nông nghiệp
+Kinh tế tài nguyên thiên nhiên
+Luật (Luật hành chính)
+Luật (Luật thương mại)
+Luật (Luật tư pháp)
+Marketing
+Mạng máy tính và truyền thông dữ liệu
+Nông học
+Ngôn ngữ Anh
+Ngôn ngữ Anh (chất lượng cao)
+Ngôn ngữ Anh (Phiên dịch - Biên dịch tiếng Anh)
+Ngôn ngữ Pháp
+Nuôi trồng thủy sản
+Nuôi trồng thủy sản (chương trình tiên tiến)
+Quản lý đất đai
+Quản lý công nghiệp
+Quản lý tài nguyên và môi trường
+Quản lý thủy sản
+Quản trị dịch vụ du lịch và lữ hành
+Quản trị kinh doanh
+Sinh học
+Sinh học ứng dụng
+Sư phạm Địa lý
+Sư phạm Hóa học
+Sư phạm Lịch sử
+Sư phạm Ngữ văn
+Sư phạm Sinh học
+Sư phạm Tiếng Anh
+Sư phạm Tiếng Pháp
+Sư phạm Tin học
+Sư phạm Toán học
+Sư phạm Vật lý
+Tài chính - Ngân hàng
+Tài chính - Ngân hàng (chất lượng cao)
+Thông tin - Thư viện
+Thú y
+Toán ứng dụng
+Triết học
+Vật lý kỹ thuật
+Văn học
+Việt Nam học (Hướng dẫn viên du lịch)
+Xã hội học
+Plant protection
+Aquatic pathology
+Seafood processing technology
+Chemical engineering technology
+Chemical engineering technology (High Quality Program)
+Fruit and vegetable technology and landscape
+Postharvest Technology
+Biotechnology
+Biotechnology (Advanced Program)
+Information Technology
+Information Technology (High Quality Program)
+Information Technology (Applied Informatics)
+Food Technology
+Food technology (High Quality Program)
+Politics
+Breed
+Civic education
+Physical education
+Primary education
+Pharmaceutical
+Chemistry
+Information system
+Accountant
+Control and automation engineering
+Electrical Engineering
+Electrical Engineering (High Quality Program)
+Electronics and telecommunications engineering
+Mechatronic Engineering
+Mechanical engineer
+Mechanical Engineering (Automotive Mechanic)
+Mechanical Engineering (Mechanical Engineering)
+Computer Engineering
+Enviromental engineer
+Software technology
+Materials Engineering
+Construction Engineering
+Construction Engineering (High Quality Program)
+Traffic engineering construction
+Construction engineering of water works
+Soil Science (Soil management and fertilizer technology)
+Crop Science
+Crop Science (High-tech Agriculture)
+Computer science
+Environmental science
+Audit
+Agribusiness
+International bussiness
+International business (High Quality Program)
+Commercial business
+Economy
+Agricultural economy
+Natural resource economics
+Law (Administrative Law)
+Law (Commercial Law)
+Law (Judicial Law)
+Marketing
+Computer networks and data communication
+Agriculture
+English Language
+English language (High Quality Program)
+English Language (Translation - English Translator)
+French Language
+Aquaculture
+Aquaculture (Advanced Program)
+Land Management
+Industrial Management
+Resource and environment management
+Fisheries Management
+Management of travel and tourism services
+Business Administration
+Biological
+Applied Biology
+Geography Pedagogy
+Chemistry Pedagogy
+History Pedagogy
+Pedagogy of Linguistics
+Biology Pedagogy
+English Pedagogy
+French Pedagogy
+Informatics Pedagogy
+Mathematics Pedagogy
+Physics Pedagogy
+Finance - Banking
+Finance - Banking (high quality)
+Information - Library
+Veterinary medicine
+Applied Mathematics
+Philosophy
+Technical physics
+Literature
+Study Vietnam (Tour guide)
+Sociology
