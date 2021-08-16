@@ -1,4 +1,4 @@
-# vietcardocr
+# VietCardOCR
 
 vietcardocr is a Python library for extracting information from Vietnamese Personal Card (IDCard, Driving License, Student Card).
 
